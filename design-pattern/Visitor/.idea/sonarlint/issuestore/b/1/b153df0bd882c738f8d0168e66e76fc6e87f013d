@@ -1,0 +1,4 @@
+
+o	cpp:S1235"S'mitarbeiter::AbstractMitarbeiter' has virtual functions but non-virtual destructor(ŞÖğË8ÜÖÇÖÊ1
+b	cpp:S1117"Adeclaration shadows a field of 'mitarbeiter::AbstractMitarbeiter'(ıÏäñúÿÿÿÿ8øı¢ÔÊ1
+g	cpp:S6009"FReplace this const reference to "std::string" by a "std::string_view".(ıÏäñúÿÿÿÿ8€ş¢ÔÊ1

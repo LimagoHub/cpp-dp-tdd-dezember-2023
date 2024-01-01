@@ -1,0 +1,5 @@
+
+S	cpp:S5018"2Give class "Iterator" a noexcept move constructor.(õö‹¨üÿÿÿÿ8Ÿîîç›1
+s	cpp:S11722"WRemove the unused parameter "dummy", make it unnamed, or declare it "[[maybe_unused]]".(òúş8²‘ú›1
+x	cpp:S1172H"WRemove the unused parameter "dummy", make it unnamed, or declare it "[[maybe_unused]]".(™éÀ»ıÿÿÿÿ8²‘ú›1
+h	cpp:S6009‘"FReplace this const reference to "std::string" by a "std::string_view".(©±·±ùÿÿÿÿ8áÚ Õ›1

@@ -1,0 +1,4 @@
+
+j	cpp:S1235	"N'mitarbeiter::LohnEmpfaenger' has virtual functions but non-virtual destructor(¾÷Š‰8–ÃÌÖÊ1
+Q	cpp:S1117"<declaration shadows a field of 'mitarbeiter::LohnEmpfaenger'(‰©ó¤
+V	cpp:S1117%"<declaration shadows a field of 'mitarbeiter::LohnEmpfaenger'(—ƒÏ®şÿÿÿÿ

@@ -1,0 +1,8 @@
+
+`	cpp:S1238"?Pass expensive to copy object "filename" by reference to const.(Î¢æşÿÿÿÿ8¥›õ„Ë1
+J	cpp:S5817&")This function should be declared "const".(º¹ãÚùÿÿÿÿ8¨›õ„Ë1
+»	cpp:S5350'"Make the type of this variable a reference-to-const. The current type of "handler" is "class std::reference_wrapper<class processor::handler::FileHandler> &".(®÷ôÒ8©¤æ„Ë1
+J	cpp:S5817+")This function should be declared "const".(çÀ¶üÿÿÿÿ8«›õ„Ë1
+»	cpp:S5350,"Make the type of this variable a reference-to-const. The current type of "handler" is "class std::reference_wrapper<class processor::handler::FileHandler> &".(®÷ôÒ8¯ïæ„Ë1
+J	cpp:S58170")This function should be declared "const".(‹„¼Şûÿÿÿÿ8­›õ„Ë1
+»	cpp:S53501"Make the type of this variable a reference-to-const. The current type of "handler" is "class std::reference_wrapper<class processor::handler::FileHandler> &".(®÷ôÒ8·ºç„Ë1

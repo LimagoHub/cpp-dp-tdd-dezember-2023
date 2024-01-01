@@ -1,0 +1,5 @@
+
+Y	cpp:S2209"8Replace "." with "::" for access to "element_type::end".(‹„´òıÿÿÿÿ8ùŞÙÕ›1
+˜	cpp:S5350"wMake the type of this variable a reference-to-const. The current type of "item" is "class de::limago::abstract_node &".(‹„´òıÿÿÿÿ8Î§şç›1
+Z	cpp:S2209"9Replace "->" with "::" for access to "element_type::end".(ë¯¡®ùÿÿÿÿ8†ÈñÕ›1
+Z	cpp:S2209!"9Replace "->" with "::" for access to "element_type::end".(—–˜ıÿÿÿÿ8–òõÕ›1

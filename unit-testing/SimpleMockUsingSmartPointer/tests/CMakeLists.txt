@@ -15,32 +15,32 @@ set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
 FetchContent_MakeAvailable(googletest)
 enable_testing()
 
-set(SOURCE test.cpp services/personen_service_impl_test.cpp services/personen_service_impl_test.h)
+set(SOURCE test.cpp DependencyMock.h ServiceTest.cpp ServiceTest.h)
 
 
 
 # Create test executable
-add_executable(PersonenServiceProjektTest ${SOURCE} ${HEADER}  )
+add_executable(SimpleMockUsingReferenceTest ${SOURCE} ${HEADER}  )
 
 target_link_libraries(
-		PersonenServiceProjektTest
-		GTest::gtest_main
+		SimpleMockUsingReferenceTest
 		GTest::gmock
+		GTest::gtest_main
 )
 
 include(GoogleTest)
-gtest_discover_tests(PersonenServiceProjektTest)
+gtest_discover_tests(SimpleMockUsingReferenceTest)
 
 
 
 # Mark it as test executable for CMake
-add_test(NAME PersonenServiceProjektTest COMMAND PersonenServiceProjektTest)
+add_test(NAME SimpleMockUsingReferenceTest COMMAND SimpleMockUsingReferenceTest)
 
 # Push it to tests
-set_target_properties(PersonenServiceProjektTest PROPERTIES FOLDER Tests)
+set_target_properties(SimpleMockUsingReferenceTest PROPERTIES FOLDER Tests)
 
 # Build tests where other libraries reside
-set_target_properties(PersonenServiceProjektTest
+set_target_properties(SimpleMockUsingReferenceTest
 		PROPERTIES
 		ARCHIVE_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/$<CONFIG>"
 		LIBRARY_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/$<CONFIG>"

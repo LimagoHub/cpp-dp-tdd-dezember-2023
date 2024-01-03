@@ -36,6 +36,9 @@ gtest_discover_tests(SimpleMockUsingReferenceTest)
 # Mark it as test executable for CMake
 add_test(NAME SimpleMockUsingReferenceTest COMMAND SimpleMockUsingReferenceTest)
 
+add_custom_target(check COMMAND ${CMAKE_CTEST_COMMAND}
+		DEPENDS SimpleMockUsingReferenceTest)
+
 # Push it to tests
 set_target_properties(SimpleMockUsingReferenceTest PROPERTIES FOLDER Tests)
 

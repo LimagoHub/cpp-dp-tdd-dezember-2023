@@ -1,0 +1,9 @@
+
+>
+CMakeLists.txt,9\a\9a2aa4db38d3115ed60da621e012c0efc0172aae
+<
+mainwindow.h,4\4\4479f30c5218c73018cd64309b65421d25d4e199
+>
+mainwindow.cpp,8\d\8d467e7358adf4e3703f837b95e3c64ba9983e5f
+8
+main.cpp,6\8\682a50d19e416195436708e48c7761923b8d6651
